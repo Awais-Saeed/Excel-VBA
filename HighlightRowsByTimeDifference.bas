@@ -19,7 +19,7 @@ Sub HighlightRowsByTimeDifference()
     
     ' Loop through rows starting from the second row
     For i = 2 To lastRow
-        ' Calculate the time difference in minutes
+        ' Calculate the time difference in minutes. Time data is in Column B
         If IsDate(ws.Cells(i, 2).Value) And IsDate(ws.Cells(i - 1, 2).Value) Then
             timeDiff = DateDiff("n", ws.Cells(i - 1, 2).Value, ws.Cells(i, 2).Value)
 
