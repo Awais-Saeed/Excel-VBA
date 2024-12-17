@@ -1,5 +1,5 @@
 Attribute VB_Name = "Module1"
-Sub HighlightRowsByTimeDifference()
+Sub highlight_rows_on_time_diff()
     
     ' Declare variables
     Dim ws As Worksheet
